@@ -17,11 +17,11 @@ Some technical details:
 The wordlist loaded at launch is first sorted via a custom generic merge_sort implementation, and then
 built into a balanced binary search tree via a custom generic build_bst implementation in order to
 vastly improve message checking time(binary search is signifigantly faster than linear search for 
-very large lists of words). 
+very large lists of words). (The included Makefile was not written by me, just thought it would be useful to include for people who wish to continue development of the bot).
 
 Personal remarks:
 This is my first "major" personal project that I intend for other people to be able to see, and use, if 
 they wish. Constructive criticism, comments, and other useful communications are welcome and greatly 
 appreciated (contanct information should be available via my github profile). I will do my best to 
 answer questions and improve the quality of the code, and this repo as the project continues. Thanks 
-for your patience and interest in this little project of mine!
+for your patience and interest in this little project of mine! 
